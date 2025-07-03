@@ -1,0 +1,203 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 100%;
+    margin-left: 10px;
+    
+}
+.logo span{
+    color: #e90a88;
+    font-weight: bold;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.logo img{
+    height: 35px;
+}
+nav ul{
+    list-style: none;
+    gap: 30px;
+    display: flex;
+    font-size: 22px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3333336c;
+    font-weight: 500;
+    transition: 0,3s;
+}
+nav ul li a:hover{
+    color: #e90a88;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+    justify-content: space-between;
+}
+.header-img{
+    position: relative;
+    width: 50%;
+
+}
+.header-img img{
+    width: 500px;
+
+}
+.header-text{
+    width: 50%;
+}
+.header-text h1{
+    font-size: 40px;
+    color: rgba(250, 112, 135, 0.858);
+    padding-bottom: 0px;
+
+}
+.header-text h2{
+    font-size: 40px;
+    padding-top: 0px;
+    color: #1a1a1ac1;
+}
+.header-text p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.625);
+    margin: 20px 0px;
+}
+button{
+    color: #fff;
+    background-color:#1a1a1ac1;
+    padding: 10px 5px;
+
+}
+button:hover{
+    color: white;
+    font-weight: bold;
+   background-color: rgba(250, 112, 135, 0.858);
+   
+}
+.casual{
+    background-color: rgba(251, 147, 164, 0.903);
+    width: 100%;
+    justify-self: center;
+     padding: 20px 20px;
+   }
+.casual h1{
+    padding-left: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px
+}
+.casual-shoes {
+    width: 350px;
+    height: 600px;
+    width: 80%;
+    gap: 10px;
+    background-color:rgba(250, 112, 135, 0.858);
+    display: grid;
+    grid-template-columns: 
+repeat(3,1fr);
+    justify-self: center;
+    padding: 40px 40px;
+}
+.casual-image img{
+    width: 280px;
+    height: 350px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    
+}
+.casual-image h1{
+     padding: 0px 40px ;
+     color: white;
+}
+.casual-image p{
+    padding: 0px 40px ;
+    color: white;
+}
+.casual-image h3{
+    padding: 0px 40px ;
+    color: white;
+    font-size: 30px;
+}
+.casual-image h3 button{
+    padding: 10px 5px;
+    margin-left: 80px;
+}
+.formal-shoes{
+     width: 350px;
+    height: 600px;
+    width: 80%;
+    gap: 10px;
+    background-color:rgba(250, 112, 135, 0.858);
+    display: grid;
+    grid-template-columns: 
+repeat(3,1fr);
+    justify-self: center;
+    padding: 40px 40px;
+}
+.formal-image img{
+     width: 280px;
+    height: 350px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.formal-image h1{
+     padding: 0px 40px ;
+     color: white;
+}
+.formal-image p{
+    padding: 0px 40px ;
+    color: white;
+}
+.formal-image h3{
+     padding: 0px 40px ;
+    color: white;
+    font-size: 30px;
+}
+.formal-image h3 button{
+    padding: 10px 5px;
+    margin-left: 80px;
+}
+.container{
+    display: grid;
+    gap: 40px;
+    padding: 20px 20px;
+    background-color: rgba(251, 147, 164, 0.903); 
+    padding-left: 90px;
+    
+ }
+.slides{
+    width: 50%;
+    height: 150px;
+    background-color:rgba(250, 112, 135, 0.858);
+    border-radius: 10px;
+}
+.slides h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+     padding-left:40px;
+     padding-top: 20px;
+     text-align: center;
+   
+}
+.slides p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.slide-img img{
+    width: 50%;
+    list-style:;
+}  
+
