@@ -76,7 +76,7 @@ nav ul li a:hover{
 button{
     color: #fff;
     background-color:#1a1a1ac1;
-    padding: 10px 5px;
+    padding: 10px 10px;
 
 }
 button:hover{
@@ -101,36 +101,39 @@ button:hover{
     width: 350px;
     height: 600px;
     width: 80%;
-    gap: 10px;
+    gap: 5px;
     background-color:rgba(250, 112, 135, 0.858);
     display: grid;
     grid-template-columns: 
 repeat(3,1fr);
     justify-self: center;
-    padding: 40px 40px;
+    padding: 60px 40px 60px 100px;
+    
 }
 .casual-image img{
     width: 280px;
     height: 350px;
-    padding: 20px 40px;
+    border: 2px solid rgb(246, 239, 240);
     border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(216, 45, 74, 0.979);
+    
     
 }
 .casual-image h1{
-     padding: 0px 40px ;
+     padding: 0px 20px ;
      color: white;
 }
 .casual-image p{
-    padding: 0px 40px ;
+    padding: 0px 20px ;
     color: white;
 }
 .casual-image h3{
-    padding: 0px 40px ;
+    padding: 0px 20px ;
     color: white;
     font-size: 30px;
 }
 .casual-image h3 button{
-    padding: 10px 5px;
+    padding: 10px 10px;
     margin-left: 80px;
 }
 .formal-shoes{
@@ -143,61 +146,102 @@ repeat(3,1fr);
     grid-template-columns: 
 repeat(3,1fr);
     justify-self: center;
-    padding: 40px 40px;
+    padding: 60px 40px 60px 100px;
 }
 .formal-image img{
      width: 280px;
     height: 350px;
-    padding: 20px 40px;
+    border: 2px solid white;
     border-radius: 10px;
+     box-shadow: 10px 10px 10px rgba(216, 45, 74, 0.979);
+    
 }
 .formal-image h1{
-     padding: 0px 40px ;
+     padding: 0px 20px ;
      color: white;
 }
 .formal-image p{
-    padding: 0px 40px ;
+    padding: 0px 20px ;
     color: white;
 }
 .formal-image h3{
-     padding: 0px 40px ;
+     padding: 0px 20px ;
     color: white;
     font-size: 30px;
 }
 .formal-image h3 button{
-    padding: 10px 5px;
+    padding: 10px 10px;
     margin-left: 80px;
 }
 .container{
-    display: grid;
+     display: flex;
     gap: 40px;
     padding: 20px 20px;
     background-color: rgba(251, 147, 164, 0.903); 
-    padding-left: 90px;
+    padding-left: 90px; 
+}
     
- }
+    
+ 
 .slides{
-    width: 50%;
+     width: 100%;
     height: 150px;
     background-color:rgba(250, 112, 135, 0.858);
-    border-radius: 10px;
+    border-radius: 10px; 
 }
+
 .slides h1{
-    color: white;
+     color: white;
     font-size: 25px;
     font-weight: bold;
      padding-left:40px;
      padding-top: 20px;
      text-align: center;
-   
+    
 }
+
 .slides p{
     text-align: center;
     color: white;
     font-size: 16px;
+ }
+ 
+.container-left{
+    flex: 1;
+    min-width: 300px;
 }
-.slide-img img{
-    width: 50%;
-    list-style:;
-}  
+.container-right{
+    flex: 1;
+    text-align: center;
+    min-width: 300px;
+}
+.container-right img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 50px;
+} 
+.newsletter{
+    background-color: rgba(250, 112, 135, 0.858);
+    width: 90%;
+    height: 180px;
+    justify-self: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-top: 0px;
+    
+    
+}
+.newsletter input{
+    width: 80%;
+    height: 40px;
+    margin: 100px 0px 0px 90px;
 
+}
+.newsletter button{
+    color: #fff;
+    padding: 12px 15px;
+    
+
+
+
+}
