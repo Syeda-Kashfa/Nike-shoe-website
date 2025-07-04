@@ -90,6 +90,7 @@ button:hover{
     width: 100%;
     justify-self: center;
      padding: 20px 20px;
+     border-radius: 5px;
    }
 .casual h1{
     padding-left: 90px;
@@ -108,6 +109,8 @@ button:hover{
 repeat(3,1fr);
     justify-self: center;
     padding: 60px 40px 60px 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(216, 45, 74, 0.979);
     
 }
 .casual-image img{
@@ -147,6 +150,8 @@ repeat(3,1fr);
 repeat(3,1fr);
     justify-self: center;
     padding: 60px 40px 60px 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(216, 45, 74, 0.979);
 }
 .formal-image img{
      width: 280px;
@@ -177,19 +182,15 @@ repeat(3,1fr);
      display: flex;
     gap: 40px;
     padding: 20px 20px;
-    background-color: rgba(251, 147, 164, 0.903); 
     padding-left: 90px; 
 }
-    
-    
- 
 .slides{
      width: 100%;
     height: 150px;
     background-color:rgba(250, 112, 135, 0.858);
-    border-radius: 10px; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(216, 45, 74, 0.979); 
 }
-
 .slides h1{
      color: white;
     font-size: 25px;
@@ -199,14 +200,12 @@ repeat(3,1fr);
      text-align: center;
     
 }
-
 .slides p{
     text-align: center;
     color: white;
     font-size: 16px;
  }
- 
-.container-left{
+ .container-left{
     flex: 1;
     min-width: 300px;
 }
@@ -228,6 +227,7 @@ repeat(3,1fr);
     margin-top: 50px;
     border-radius: 10px;
     padding-top: 0px;
+    box-shadow: 10px 10px 10px rgba(216, 45, 74, 0.979);
     
     
 }
@@ -241,7 +241,49 @@ repeat(3,1fr);
     color: #fff;
     padding: 12px 15px;
     
+}
+.footer{
+   padding: 40px 20px 10px 20px;
+   color: #fff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-column{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer-column h1{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgba(250, 112, 135, 0.858);
 
+}
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+    
+}
+.footer-column ul li{
+    margin-bottom: 8px;
+    color: #1a1a1ac1;
 
-
+}
+.footer-column ul li a{
+    color: #333333d6;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333333d6 ;
+    
+}
+.footer-bottom p a{
+    color: rgba(250, 112, 135, 0.858);
 }
